@@ -1,4 +1,4 @@
-def arithmetic_arranger(pro, solve):
+def arithmetic_arranger(pro, solve = False):
   
   x = ""
   y = ""
