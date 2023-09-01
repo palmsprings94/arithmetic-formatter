@@ -1,4 +1,4 @@
-def arithmetic_arranger(pro, solve = False):
+def arithmetic_arranger(pro, solve=None):
   
   x = ""
   y = ""
@@ -44,7 +44,7 @@ def arithmetic_arranger(pro, solve = False):
     line = line + "_" * len(secline) + "    "
     z = z + (c.rjust(len(secline), " ")) + "    "
   
-  if solve is False:
+  if solve is None:
     print(x)
     print(y)
     print(line)
