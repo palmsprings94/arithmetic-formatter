@@ -53,5 +53,3 @@ def arithmetic_arranger(pro, solve):
     print(y)
     print(line)
     print(z)
-
-arithmetic_arranger(["32 + 8", "1 - 3201", "9999 + 9999", "523 - 49"], True)
